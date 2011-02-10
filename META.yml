@@ -18,7 +18,7 @@ name: Mojolicious-Plugin-CaptchaRenderer
 provides:
   Mojolicious::Plugin::CaptchaRenderer:
     file: lib/Mojolicious/Plugin/CaptchaRenderer.pm
-    version: 0.01
+    version: 0.02
 requires:
   File::Spec: 0
   File::Temp: 0
@@ -27,4 +27,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/konstantinov/Mojolicious-Plugin-CaptchaRenderer.git
-version: 0.01
+version: 0.02
